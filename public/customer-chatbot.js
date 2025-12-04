@@ -656,7 +656,7 @@ class CustomerChatbot {
 
     async sendImageToBackend(imageData, message) {
         try {
-            const response = await fetch('http://localhost:5000/api/image-search', {
+            const response = await fetch('https://webstore-chatbot-arg9hjd8cqbfh6g9.uaenorth-01.azurewebsites.net/api/image-search', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
